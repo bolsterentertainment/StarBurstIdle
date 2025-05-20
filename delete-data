@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            padding: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>StarBurst Idle Data Deletion</h1>
+    
+    <p>We don’t store any of your personal data ourselves. All profiles, purchase history, achievements, and device identifiers are managed by Google Play Services and the Google Mobile Ads SDK.</p>
+
+  <h2>Revoke Access</h2>
+  <p>To remove our app’s access to your Google account data, go to your Google Account settings:</p>
+  <ol>
+    <li>Visit <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a></li>
+    <li>Find “YourAppName” in the list of connected apps</li>
+    <li>Click “Remove Access”</li>
+  </ol>
+
+  <p>If you have any questions or need further assistance, please contact us at <a href="mailto:bolsterentertainment@gmail.com">bolsterentertainment@gmail.com</a>.</p>
+</body>
+
+</html>
