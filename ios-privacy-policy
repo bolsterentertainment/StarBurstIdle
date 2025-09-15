@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy for StarBurst Idle (iOS)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for StarBurst Idle (iOS App)</h1>
+
+    <p><strong>Last Updated:</strong> September 15, 2025</p>
+
+    <p>This Privacy Policy describes how your personal information is collected, used, and shared when you install and use the StarBurst Idle mobile application (the "App").</p>
+
+    <h2>Information We Collect</h2>
+
+    <p>We do not require you to register for an account or provide any personal information to use our App. However, we automatically collect certain information about your device and your interaction with the App through integrated Software Development Kits (SDKs) from our partners: Unity, and Tenjin.</p>
+
+    <p>The information collected includes:</p>
+    <ul>
+        <li><strong>Device Information:</strong> Your device's advertising identifier, IP address, device type, and operating system.</li>
+        <li><strong>Usage Data:</strong> Information about your in-game activity and purchase history.</li>
+    </ul>
+    <p>This data is provided to us in aggregated and anonymized reports. We do not store individual user data.</p>
+
+    <h2>How We Use Your Information</h2>
+
+    <p>We use the information we collect to:</p>
+    <ul>
+        <li>Provide and improve our App and services.</li>
+        <li>Personalize your in-game experience.</li>
+        <li>Serve interest-based advertising.</li>
+        <li>Analyze the performance of our marketing campaigns.</li>
+    </ul>
+
+    <h2>In-App Purchases</h2>
+
+    <p>All in-app purchases are handled by Apple's App Store and are subject to Apple's terms of service and privacy policy. We do not collect or store any of your payment information.</p>
+
+    <h2>Unity Services</h2>
+
+    <p>We use Unity's services for game authentication and cloud saves.</p>
+    <ul>
+        <li><strong>Authentication:</strong> We use Unity's authentication services in conjunction with Apple's Game Center to provide a seamless sign-in experience. This allows you to save your game progress and participate in leaderboards.</li>
+        <li><strong>Cloud Save:</strong> We use Unity's Cloud Save feature to store your game progress. Your cloud save data is stored anonymously and is not linked to your personal information. You can delete your cloud save data at any time by performing a hard reset within the App's settings.</li>
+    </ul>
+
+    <h2>Data Sharing</h2>
+
+    <p>We share your information with third-party service providers for the following purposes:</p>
+    <ul>
+        <li><strong>Unity:</strong> To provide core game services, such as authentication, cloud saves, and in-game advertising.</li>
+        <li><strong>Tenjin:</strong> For marketing attribution and campaign analysis.</li>
+    </ul>
+    <p>These third parties are contractually obligated to protect your information and use it only for the purposes for which it is disclosed.</p>
+
+    <h2>Your Choices and Opt-Out Rights</h2>
+
+    <p>You have the following choices regarding your information:</p>
+    <ul>
+        <li><strong>Advertising:</strong> You can opt-out of interest-based advertising by adjusting your device's privacy settings.</li>
+        <li><strong>Game Center:</strong> You can sign out of Game Center on your device to disable features such as leaderboards and achievements.</li>
+        <li><strong>Uninstall:</strong> You can uninstall the App to stop all data collection.</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+
+    <p>Our App is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13, we will take steps to delete that information.</p>
+
+    <h2>Data Retention and Security</h2>
+
+    <p>We retain your information for as long as necessary to provide our services and as required by law. We take reasonable measures to protect your information from unauthorized access, use, or disclosure.</p>
+
+    <h2>Changes to This Privacy Policy</h2>
+
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+    <h2>Contact Us</h2>
+
+    <p>If you have any questions about this Privacy Policy, please contact us at [Your Contact Information]</p>
+
+</body>
+</html>
