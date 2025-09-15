@@ -39,8 +39,8 @@
     <li><strong>Unity Authentication</strong>: a <em>Unity Player ID</em> created when you sign in using Game Center as the identity provider (no access to your Apple ID credentials).</li>
     <li><strong>Unity Cloud Save</strong>: your game progress/state saved to the cloud. This save is stored <strong>anonymously</strong> and is linked only to your Unity Player ID / Game Center identity.</li>
     <li><strong>Purchase information</strong>: in‑app purchase transaction records used to validate and restore purchases via Apple In‑App Purchase (StoreKit).</li>
-    <li><strong>SDK diagnostics/metrics</strong> required to operate Unity IAP, Authentication, and Cloud Save (e.g., SDK version and initialization status).</li>
-    <li><strong>Attribution data</strong> processed by Tenjin (e.g., IDFA when permitted, IP address, app open/session events, SKAdNetwork postbacks) for install attribution and ad campaign measurement.</li>
+    <li><strong>Operational diagnostics and limited telemetry</strong> required to operate Unity IAP, Authentication, and Cloud Save on iOS (e.g., package version and initialization status).</li>
+    <li><strong>Attribution data</strong> (e.g., install referrer information and app open/session start events) used to attribute installs to ad campaigns via Tenjin</li>
   </ul>
   <p>Unity Services Core is initialized to enable <em>In‑App Purchasing</em>, <em>Unity Authentication (via Game Center)</em>, and <em>Unity Cloud Save</em>. We do <strong>not</strong> use Unity Analytics, Unity Ads, or Unity Cloud Diagnostics.</p>
   <p>All of the above are transmitted directly from your device to Apple&rsquo;s, Google&rsquo;s, Unity&rsquo;s, and Tenjin&rsquo;s servers over encrypted channels (HTTPS/TLS) and processed under their respective Privacy Policies. We only have access to aggregated, anonymized reports; we do not store these data points on our own systems.</p>
@@ -80,8 +80,8 @@
 
   <h2>6. Data Retention &amp; Deletion</h2>
   <p>We do not retain user data on our own servers. Data described above is retained by Apple, Google, Unity, and Tenjin under their respective retention policies.</p>
-  <p><strong>Cloud Save</strong>: Your cloud save is stored <strong>anonymously</strong>. You can delete your cloud save and local data by performing a <em>Hard Reset</em> inside the game. This operation erases the associated Unity Cloud Save for your profile.</p>
-  <p>To request deletion of any profile, purchase, or device‑ID data held by our partners where applicable, please visit our request page: <a href="https://bolsterentertainment.github.io/StarBurstIdle/delete-data">https://bolsterentertainment.github.io/StarBurstIdle/delete-data</a>.</p>
+  <p><strong>Cloud Save</strong>: Your cloud save is stored <strong>anonymously</strong>.
+  <p>To request deletion of any profile, saves, purchase, or device‑ID data held by our partners where applicable, please visit our request page: <a href="starburstidle.com/delete-data-ios">starburstidle.com/delete-data-ios</a>.</p>
 
   <h2>7. Children’s Privacy</h2>
   <p>The Application is not directed to children under 13, and we do not knowingly collect personal data from them. Any data generated is processed solely by the SDKs listed above; we do not store or access it.</p>
