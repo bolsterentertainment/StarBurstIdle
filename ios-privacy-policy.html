@@ -1,98 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy for StarBurst Idle (iOS)</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StarBurst Idle – iOS Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #111; padding: 2rem; max-width: 900px; margin: auto; }
+    h1, h2, h3 { line-height: 1.3; }
+    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    h2 { margin-top: 2rem; }
+    h3 { margin-top: 1.25rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: #0a66c2; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .small { color: #555; font-size: 0.95rem; }
+    hr { margin: 2rem 0; border: 0; border-top: 1px solid #eee; }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="small">Last updated: 15 Sep 2025</p>
+  </header>
 
-    <h1>Privacy Policy for StarBurst Idle (iOS App)</h1>
+  <p>This Privacy Policy applies to the <strong>StarBurst Idle</strong> mobile application (the &ldquo;Application&rdquo;), developed and published by <strong>Bolster Solutions</strong> (the &ldquo;Service Provider&rdquo;) as a Freemium service. This service is provided &ldquo;AS IS&rdquo;.</p>
 
-    <p><strong>Last Updated:</strong> September 15, 2025</p>
+  <h2>1. Information We Collect</h2>
 
-    <p>This Privacy Policy describes how your personal information is collected, used, and shared when you install and use the StarBurst Idle mobile application (the "App").</p>
+  <h3>User Provided Information</h3>
+  <p>The Application does not require registration or submission of personal information directly to our servers.</p>
 
-    <h2>Information We Collect</h2>
+  <h3>Automatically Collected Information</h3>
+  <p>When you use the Application on iOS, the following data types may be collected automatically by integrated SDKs from Apple (Game Center and StoreKit), Google (AdMob), and Unity (Services Core, Authentication, In‑App Purchasing, and Cloud Save), as well as our attribution provider Tenjin:</p>
+  <ul>
+    <li><strong>Advertising identifier (IDFA)</strong> (if you grant tracking permission via App Tracking Transparency) and ad‑interaction metrics.</li>
+    <li><strong>Device and app data</strong> such as IP address, device model, iOS version, language/locale, and app version.</li>
+    <li><strong>Game Center</strong>: player alias and a platform‑specific <em>Game Center Player ID</em> (if you choose to sign in), plus leaderboard scores, rankings, and achievement completions that you submit.</li>
+    <li><strong>Unity Authentication</strong>: a <em>Unity Player ID</em> created when you sign in using Game Center as the identity provider (no access to your Apple ID credentials).</li>
+    <li><strong>Unity Cloud Save</strong>: your game progress/state saved to the cloud. This save is stored <strong>anonymously</strong> and is linked only to your Unity Player ID / Game Center identity.</li>
+    <li><strong>Purchase information</strong>: in‑app purchase transaction records used to validate and restore purchases via Apple In‑App Purchase (StoreKit).</li>
+    <li><strong>SDK diagnostics/metrics</strong> required to operate Unity IAP, Authentication, and Cloud Save (e.g., SDK version and initialization status).</li>
+    <li><strong>Attribution data</strong> processed by Tenjin (e.g., IDFA when permitted, IP address, app open/session events, SKAdNetwork postbacks) for install attribution and ad campaign measurement.</li>
+  </ul>
+  <p>Unity Services Core is initialized to enable <em>In‑App Purchasing</em>, <em>Unity Authentication (via Game Center)</em>, and <em>Unity Cloud Save</em>. We do <strong>not</strong> use Unity Analytics, Unity Ads, or Unity Cloud Diagnostics.</p>
+  <p>All of the above are transmitted directly from your device to Apple&rsquo;s, Google&rsquo;s, Unity&rsquo;s, and Tenjin&rsquo;s servers over encrypted channels (HTTPS/TLS) and processed under their respective Privacy Policies. We only have access to aggregated, anonymized reports; we do not store these data points on our own systems.</p>
 
-    <p>We do not require you to register for an account or provide any personal information to use our App. However, we automatically collect certain information about your device and your interaction with the App through integrated Software Development Kits (SDKs) from our partners: Unity, and Tenjin.</p>
+  <h2>2. Location Data</h2>
+  <p>The Application does not collect precise or approximate location information from your device.</p>
 
-    <p>The information collected includes:</p>
-    <ul>
-        <li><strong>Device Information:</strong> Your device's advertising identifier, IP address, device type, and operating system.</li>
-        <li><strong>Usage Data:</strong> Information about your in-game activity and purchase history.</li>
-    </ul>
-    <p>This data is provided to us in aggregated and anonymized reports. We do not store individual user data.</p>
+  <h2>3. In‑App Purchases</h2>
+  <p>All in‑app purchases are processed through <strong>Apple In‑App Purchase (StoreKit)</strong>. We do not see or store your payment credentials. Our app may query StoreKit for purchase history to restore consumables or subscriptions, but we do not retain that history.</p>
+  <p><strong>Unity In‑App Purchasing (IAP)</strong> is used as a wrapper around Apple In‑App Purchase; no payment credentials are sent to Unity.</p>
 
-    <h2>How We Use Your Information</h2>
+  <h2>4. Third‑Party Data Sharing</h2>
+  <p>The Application uses the following third‑party SDKs (Apple, Google, Unity, and Tenjin), each of which receives data directly to provide its services:</p>
+  <ul>
+    <li><strong>Apple Game Center</strong>: player alias, Game Center Player ID, leaderboard and achievement submissions (when you sign in).</li>
+    <li><strong>Apple In‑App Purchase (StoreKit)</strong>: in‑app purchase transaction details for validation and restore.</li>
+    <li><strong>Google Mobile Ads (AdMob)</strong>: Advertising ID (IDFA, if permitted) and ad‑interaction metrics.</li>
+    <li><strong>Unity Services</strong> (Services Core, IAP, Authentication, Cloud Save): Unity Installation ID, Unity Player ID, SDK diagnostics/metrics; Cloud Save data (game state). No gameplay analytics; no payment credentials.</li>
+    <li><strong>Tenjin</strong> (marketing attribution): IDFA (if permitted), IP address, and SKAdNetwork/attribution events used solely to attribute installs and measure marketing performance.</li>
+  </ul>
+  <p>Please review their policies:</p>
+  <ul>
+    <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+    <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543">AdMob Privacy &amp; Terms</a></li>
+    <li><a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a></li>
+    <li><a href="https://www.tenjin.com/privacy/">Tenjin Privacy Policy</a></li>
+  </ul>
 
-    <p>We use the information we collect to:</p>
-    <ul>
-        <li>Provide and improve our App and services.</li>
-        <li>Personalize your in-game experience.</li>
-        <li>Serve interest-based advertising.</li>
-        <li>Analyze the performance of our marketing campaigns.</li>
-    </ul>
+  <h2>5. Advertising &amp; Attribution (Opt‑Out Options)</h2>
+  <p>You can halt all collection of information by uninstalling the Application. You may also limit tracking and personalized advertising on iOS by doing any of the following:</p>
+  <ul>
+    <li>On your device, go to <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em> and disable <em>Allow Apps to Request to Track</em>, or deny tracking for <em>StarBurst Idle</em>.</li>
+    <li>You can reset or limit use of the device advertising identifier (IDFA) via your iOS settings.</li>
+    <li>If you prefer not to use Game Center, go to <em>Settings &gt; Game Center</em> and tap <em>Sign Out</em>. Some features (leaderboards/achievements) will be unavailable when signed out.</li>
+  </ul>
 
-    <h2>In-App Purchases</h2>
+  <h2>6. Data Retention &amp; Deletion</h2>
+  <p>We do not retain user data on our own servers. Data described above is retained by Apple, Google, Unity, and Tenjin under their respective retention policies.</p>
+  <p><strong>Cloud Save</strong>: Your cloud save is stored <strong>anonymously</strong>. You can delete your cloud save and local data by performing a <em>Hard Reset</em> inside the game. This operation erases the associated Unity Cloud Save for your profile.</p>
+  <p>To request deletion of any profile, purchase, or device‑ID data held by our partners where applicable, please visit our request page: <a href="https://bolsterentertainment.github.io/StarBurstIdle/delete-data">https://bolsterentertainment.github.io/StarBurstIdle/delete-data</a>.</p>
 
-    <p>All in-app purchases are handled by Apple's App Store and are subject to Apple's terms of service and privacy policy. We do not collect or store any of your payment information.</p>
+  <h2>7. Children’s Privacy</h2>
+  <p>The Application is not directed to children under 13, and we do not knowingly collect personal data from them. Any data generated is processed solely by the SDKs listed above; we do not store or access it.</p>
+  <p>If you believe your child under 13 has used the app and wish to remove data, you can sign out of Game Center on the device (<em>Settings &gt; Game Center &gt; Sign Out</em>) and adjust tracking settings as described above.</p>
 
-    <h2>Unity Services</h2>
+  <h2>8. Security</h2>
+  <p>We implement reasonable physical, electronic, and procedural safeguards to protect any information processed, but no security measure is foolproof.</p>
 
-    <p>We use Unity's services for game authentication and cloud saves.</p>
-    <ul>
-        <li><strong>Authentication:</strong> We use Unity's authentication services in conjunction with Apple's Game Center to provide a seamless sign-in experience. This allows you to save your game progress and participate in leaderboards.</li>
-        <li><strong>Cloud Save:</strong> We use Unity's Cloud Save feature to store your game progress. Your cloud save data is stored anonymously and is not linked to your personal information. You can delete your cloud save data at any time by performing a hard reset within the App's settings.</li>
-    </ul>
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy periodically. Continued use of the Application constitutes acceptance of any changes.</p>
 
-    <h2>Data Sharing</h2>
+  <hr>
+  <p class="small"><strong>Effective date:</strong> 15 Sep 2025</p>
 
-    <p>We share your information with third-party service providers for the following purposes:</p>
-    <ul>
-        <li><strong>Unity:</strong> To provide core game services, such as authentication, cloud saves, and in-game advertising.</li>
-        <li><strong>Tenjin:</strong> For marketing attribution and campaign analysis.</li>
-    </ul>
-    <p>These third parties are contractually obligated to protect your information and use it only for the purposes for which it is disclosed.</p>
-
-    <h2>Your Choices and Opt-Out Rights</h2>
-
-    <p>You have the following choices regarding your information:</p>
-    <ul>
-        <li><strong>Advertising:</strong> You can opt-out of interest-based advertising by adjusting your device's privacy settings.</li>
-        <li><strong>Game Center:</strong> You can sign out of Game Center on your device to disable features such as leaderboards and achievements.</li>
-        <li><strong>Uninstall:</strong> You can uninstall the App to stop all data collection.</li>
-    </ul>
-
-    <h2>Children's Privacy</h2>
-
-    <p>Our App is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected personal information from a child under 13, we will take steps to delete that information.</p>
-
-    <h2>Data Retention and Security</h2>
-
-    <p>We retain your information for as long as necessary to provide our services and as required by law. We take reasonable measures to protect your information from unauthorized access, use, or disclosure.</p>
-
-    <h2>Changes to This Privacy Policy</h2>
-
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-
-    <h2>Contact Us</h2>
-
-    <p>If you have any questions about this Privacy Policy, please contact us at [Your Contact Information]</p>
-
+  <h2>Contact Us</h2>
+  <p>If you have any questions regarding privacy while using the Application, or have questions about these practices, please contact the Service Provider via email at <a href="mailto:bolsterentertainment@gmail.com">bolsterentertainment@gmail.com</a>.</p>
 </body>
 </html>
