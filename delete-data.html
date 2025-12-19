@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width'>
-    <title>StarBurst Idle Delete Data</title>
+    <title>StarBurst Incremental Delete Data</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -15,10 +15,10 @@
 </head>
 
 <body>
-    <h1>StarBurst Idle Data Deletion</h1>
+    <h1>StarBurst Incremental Data Deletion</h1>
     
-    <p>We don’t store any of your personal data ourselves. All profiles, purchase history, achievements, and device identifiers are managed by <strong>Google Play Services</strong>, the <strong>Google Mobile Ads (AdMob) SDK</strong>, <strong>Unity Services (Services Core + Unity IAP)</strong>, and our marketing attribution provider <strong>Tenjin</strong>.</p>
-
+    <p>We don’t store any of your personal data ourselves. All profiles, purchase history, achievements, and device identifiers are managed by <strong>Google Play Services</strong>, the <strong>Google Mobile Ads (AdMob) SDK</strong>, <strong>Unity Services (Services Core + Unity IAP + Unity Analytics)</strong>, and our marketing attribution provider <strong>Tenjin</strong>. Unity Analytics may process gameplay/usage analytics events and app-scoped identifiers.</p>
+    
     <h2>Uninstall to Stop Collection</h2>
     <p>Uninstalling the app stops all further data collection from your device.</p>
 
@@ -26,10 +26,17 @@
     <p>To remove our app’s access to your Google account data (e.g., Play Games profile):</p>
     <ol>
         <li>Visit <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a></li>
-        <li>Find “StarBurst Idle” in the list of connected apps</li>
+        <li>Find “StarBurst Incremental” in the list of connected apps</li>
         <li>Click “Remove Access”</li>
     </ol>
 
+    <h2>Unity Analytics Data Deletion (In-App)</h2>
+    <p>If you want Unity Analytics data deleted, use the in-app button to request analytics data deletion. This triggers Unity’s player data deletion mechanism. Unity states that this request results in the player’s data being deleted within the next 30 days.</p>
+    <p>Note: If you allow Analytics again after this, new analytics data may be recorded again.</p>
+
+    <h2>Disable Unity Analytics Collection (In-App)</h2>
+    <p>You can disable Unity Analytics data collection using the in-app analytics toggle. When disabled, the app stops sending Unity Analytics events from your device. Disabling collection does not automatically delete analytics data that was collected previously.</p>
+    
     <h2>Ad Personalization Opt-Out (Google/AdMob)</h2>
     <p>You can opt out of personalized ads shown by Google/AdMob:</p>
     <ul>
@@ -38,7 +45,7 @@
     </ul>
 
     <h2>Reset or Limit Your Advertising ID</h2>
-    <p>Tenjin and AdMob use your device’s Advertising ID (AAID/IDFA) for attribution and ads. You can reset or limit it in device settings:</p>
+    <p>Tenjin and AdMob use your device’s Advertising ID (AAID) for attribution and ads. You can reset or limit it in device settings:</p>
     <ul>
         <li><strong>Android:</strong> Settings &gt; Privacy &gt; Ads &gt; Reset advertising ID (or “Delete advertising ID”) and/or turn off “Ads personalization”.</li>
     </ul>
