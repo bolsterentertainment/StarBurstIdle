@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>StarBurst Idle — iOS Data Deletion</title>
+  <title>StarBurst Incremental — iOS Data Deletion</title>
   <style>
     :root {
       --fg:#111; --muted:#555; --link:#0a66c2; --border:#eee;
@@ -22,11 +22,11 @@
 </head>
 <body>
   <header>
-    <h1>StarBurst Idle Data Deletion (iOS)</h1>
-    <p class="small">Last updated: 15 Sep 2025</p>
+    <h1>StarBurst Incremental Data Deletion (iOS)</h1>
+    <p class="small">Last updated: 19 Dec 2025</p>
   </header>
 
-  <p>We don’t store any of your personal data ourselves. On iOS, all profiles, purchase history, achievements, and device identifiers are managed by <strong>Apple Game Center</strong>, <strong>Apple In‑App Purchase (StoreKit)</strong>, <strong>Google Mobile Ads (AdMob)</strong>, <strong>Unity Services</strong> (Services Core, IAP, Authentication with Game Center, and <strong>Unity Cloud Save</strong>), and our marketing attribution provider <strong>Tenjin</strong>.</p>
+  <p>We don’t store any of your personal data ourselves. On iOS, all profiles, purchase history, achievements, and device identifiers are managed by <strong>Apple Game Center</strong>, <strong>Apple In-App Purchase (StoreKit)</strong>, <strong>Google Mobile Ads (AdMob)</strong>, <strong>Unity Services</strong> (Services Core, IAP, Authentication with Game Center, <strong>Unity Cloud Save</strong>, and <strong>Unity Analytics</strong>), and our marketing attribution provider <strong>Tenjin</strong>.</p>
 
   <h2>Uninstall to Stop Collection</h2>
   <p>Uninstalling the app stops all further data collection from your device.</p>
@@ -38,13 +38,19 @@
   </ul>
   <p>Signing out prevents new leaderboard/achievement submissions and Game Center‑based sign‑in. Game Center data is managed by Apple; to manage or request deletion of your Game Center data, please consult <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a> or visit <a href="https://privacy.apple.com/">privacy.apple.com</a>.</p>
 
+  <h2>Delete Unity Analytics Data (In-App)</h2>
+  <p>You can request deletion of Unity Analytics data using the in-app analytics data deletion button. This submits a deletion request to Unity, and Unity will delete the analytics data within 30 days. If you allow Analytics again after this, new analytics data may be recorded again.</p>
+
+  <h2>Disable Unity Analytics Collection (In-App)</h2>
+  <p>You can disable <strong>Unity Analytics</strong> collection using the in-app analytics toggle. When disabled, the app stops sending Unity Analytics events from your device. Disabling collection does not delete analytics data collected previously.</p>
+  
   <h2>Delete Cloud Save (Unity Cloud Save)</h2>
   <p>Your cloud save is stored <strong>anonymously</strong> and linked to your Game Center identity. You can delete it at any time by performing a <strong>Hard Reset</strong> inside the game. This will erase your local save and remove the associated Unity Cloud Save.</p>
 
   <h2>Ad Personalization &amp; Tracking (AdMob)</h2>
   <p>You can limit or disable tracking used for personalized ads on iOS:</p>
   <ul>
-    <li>Go to <span class="kbd">Settings</span> &rarr; <span class="kbd">Privacy &amp; Security</span> &rarr; <span class="kbd">Tracking</span> and turn off <em>Allow Apps to Request to Track</em>, or deny tracking for <em>StarBurst Idle</em>.</li>
+    <li>Go to <span class="kbd">Settings</span> &rarr; <span class="kbd">Privacy &amp; Security</span> &rarr; <span class="kbd">Tracking</span> and turn off <em>Allow Apps to Request to Track</em>, or deny tracking for <em>StarBurst Incremental</em>.</li>
     <li>(Optional) In <span class="kbd">Settings</span> &rarr; <span class="kbd">Privacy &amp; Security</span> &rarr; <span class="kbd">Apple Advertising</span>, you can turn off <em>Personalized Ads</em> for Apple’s own ad platform.</li>
   </ul>
 
@@ -58,7 +64,7 @@
   <ul>
     <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> (Game Center and StoreKit)</li>
     <li><a href="https://policies.google.com/privacy">Google / AdMob Privacy</a></li>
-    <li><a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a> (IAP, Authentication, Cloud Save)</li>
+    <li><a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a> (IAP, Authentication, Cloud Save, Analytics)</li>
     <li><a href="https://www.tenjin.com/privacy/">Tenjin Privacy Policy</a></li>
   </ul>
 
