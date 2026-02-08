@@ -15,7 +15,7 @@
 
 <body>
     <h1>Privacy Policy</h1>
-    <p><em>Last updated: 19 Dec 2025</em></p>
+    <p><em>Last updated: 8 Feb 2026</em></p>
 
     <p>This Privacy Policy applies to the <strong>StarBurst Incremental</strong> mobile application ("Application"), developed and published by Bolster Solutions ("Service Provider") as a 
         Freemium service. This service is provided "AS IS".</p><br>
@@ -26,7 +26,7 @@
     <p>The Application does not require registration or submission of personal information directly to our servers.</p>
 
     <h3>Automatically Collected Information</h3>
-    <p>When you use the Application, the following data types are automatically collected by integrated Google SDKs (AdMob, Google Play Services, Play Games Services, and Google Play Billing), Unity SDKs (Unity Services Core, Unity In-App Purchasing, and Unity Analytics), and our attribution provider Tenjin:</p>
+    <p>When you use the Application, the following data types are automatically collected by integrated Google SDKs (AdMob, Google Play Services, Play Games Services, and Google Play Billing), Unity SDKs (Unity Services Core, Unity In-App Purchasing, and Unity Analytics, Unity Cloud Diagnostics):</p>
     <ul>
         <li><strong>Advertising identifier</strong> (AAID/IDFA) and ad-interaction metrics</li>
         <li><strong>IP address, device model, OS version, and language</strong></li>
@@ -39,11 +39,10 @@
         <li><strong>SDK diagnostics/metrics</strong> (e.g., SDK version and initialization status) required to operate Unity IAP</li>
         <li><strong>Analytics identifiers</strong> used by Unity Analytics (e.g., IP address and an app-specific user/installation identifier)</li>
         <li><strong>Gameplay/usage analytics events</strong> (e.g., session start/end, in game actions, watch ad event or purchase complete event)</li>
-        <!-- Tenjin-specific minimal data -->
-        <li><strong>Install attribution data</strong> (e.g., install referrer information and app open/session start events) used to attribute installs to ad campaigns <em>via Tenjin</em></li>
+        <li><strong>Crash and error reports</strong> (e.g., stack traces and device state at the time of an error) collected by Unity Cloud Diagnostics to help us improve app stability.</li>
     </ul>
-    <p>We initialize Unity Services Core to enable Unity In-App Purchasing and Unity Analytics. We do not use Unity Ads or Unity Cloud Diagnostics.</p>
-    <p>All of the above are transmitted directly from your device to Google’s, Unity’s, <strong>and Tenjin’s</strong> servers over encrypted channels (HTTPS/TLS) and processed under their respective Privacy Policies. We access reports and dashboards provided by Google, Unity, and Tenjin. These reports may include event-level analytics tied to app-scoped identifiers (for example, an installation/user identifier used by Unity Analytics). We do not operate our own servers to store this data.</p>
+    <p>We initialize Unity Services Core to enable Unity In-App Purchasing and Unity Analytics. We do not use Unity Ads.</p>
+    <p>All of the above are transmitted directly from your device to Google’s and Unity’s servers over encrypted channels (HTTPS/TLS) and processed under their respective Privacy Policies. We access reports and dashboards provided by Google and Unity. These reports may include event-level analytics tied to app-scoped identifiers (for example, an installation/user identifier used by Unity Analytics). We do not operate our own servers to store this data.</p>
 
     <h2>2. Location Data</h2>
     <p>The Application does <em>not</em> collect precise or approximate location information from your device.</p>
@@ -53,25 +52,22 @@
     <p><em>Unity In-App Purchasing (IAP) is used as a wrapper around Google Play Billing; no payment credentials are sent to Unity.</em></p>
 
    <h2>4. Third-Party Data Sharing</h2>
-    <p>The Application uses the following third-party SDKs (Google, Unity, and Tenjin), each of which receives data directly (non-anonymized) to provide its services:</p>
+    <p>The Application uses the following third-party SDKs (Google and Unity), each of which receives data directly (non-anonymized) to provide its services:</p>
     <ul>
         <li><strong>Google Play Services / Play Games:</strong> account name &amp; user ID</li>
         <li><strong>Google Play Billing:</strong> purchase history</li>
         <li><strong>Google Mobile Ads (AdMob):</strong> Advertising ID &amp; ad-interaction metrics</li>
-        <li><strong>Unity Services (Services Core + Unity IAP + Unity Analytics):</strong> Unity Installation ID/app-scoped user identifier, IP address, and gameplay/usage analytics events (no payment credentials)</li>
-        <li><strong>Tenjin (marketing attribution):</strong> Advertising ID, IP address, install referrer information, and app open/session events used solely to attribute installs and measure marketing performance</li>
+        <li><strong>Unity Services (Services Core, IAP, Analytics, and Cloud Diagnostics):</strong> Unity Installation ID/app-scoped user identifier, IP address, and gameplay/usage analytics events (no payment credentials)</li>
     </ul>
     <p>We only see aggregated analytics; individual-level data remains with the respective providers. Please review their policies:</p>
     <ul>
         <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
         <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">AdMob Privacy &amp; Terms</a></li>
         <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unity Privacy Policy</a></li>
-        <li><a href="https://www.tenjin.com/privacy/" target="_blank" rel="noopener noreferrer">Tenjin Privacy Policy</a></li>
     </ul>
 
     <h2>5. Advertising, Attribution &amp; Analytics</h2>
-    <p>We use <strong>Tenjin</strong> to measure the effectiveness of our advertising campaigns and understand how users discover our app. Tenjin processes device and install-attribution data (described above) to attribute installs to advertising sources and to provide aggregated reports to us. We do not use Tenjin for gameplay analytics.</p>
-    <p>We also use <strong>Unity Analytics</strong> to understand app performance and player behavior using gameplay/usage events. Where required, we provide an in-app option to disable Unity Analytics data collection.</p>
+    <p>We use <strong>Unity Analytics</strong> to understand app performance and player behavior using gameplay/usage events. Where required, we provide an in-app option to disable Unity Analytics data collection. We also use Unity Cloud Diagnostics to collect technical data about app crashes to improve performance.</p>
     
     <strong>What are my opt-out rights?</strong>
     <p>You can opt out of <strong>Unity Analytics</strong> collection by using the in-app privacy/analytics toggle. When opted out, we do not start Unity Analytics data collection. You can also send a delete data request through the in-app options that will delete all collected analytics data within 30 days.</p>
@@ -83,7 +79,7 @@
     </ul>
 
     <h2>6. Data Retention &amp; Deletion</h2>
-    <p>We do not retain user data on our servers. All data described above is retained by <strong>Google, Unity, and Tenjin</strong> under their respective retention policies.</p>
+    <p>We do not retain user data on our servers. All data described above is retained by <strong>Google and Unity</strong> under their respective retention policies.</p>
     <p>To request deletion of any profile, purchase, or device-ID data, please visit our request page: <a href="https://bolsterentertainment.github.io/StarBurstIdle/delete-data" target="_blank">https://bolsterentertainment.github.io/StarBurstIdle/delete-data</a></p>
 
     <h2>7. Children’s Privacy</h2>
@@ -91,7 +87,7 @@
     <p>If you believe your child under 13 has used the app and wish to remove data, revoke the app’s access in Google permissions:</p>
     <ol>
         <li>Visit <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a></li>
-        <li>Find "StarBurst Idle"</li>
+        <li>Find "StarBurst Incremental"</li>
         <li>Click "Remove Access"</li>
     </ol>
     <p>For further questions, contact us at <a href="mailto:bolsterentertainment@gmail.com">bolsterentertainment@gmail.com</a>.</p>
@@ -101,7 +97,7 @@
             
    <h2>9. Changes to This Policy</h2>
     <p>We may update this Privacy Policy periodically. Continued use of the Application constitutes acceptance of any changes.</p>
-    <p><em>Effective date: 19 Dec 2025</em></p>
+    <p><em>Effective date: 8 Feb 2026</em></p>
 
     <strong>Contact us</strong>
         <p>If you have any questions regarding privacy while using the Application, or have questions about the practices,
